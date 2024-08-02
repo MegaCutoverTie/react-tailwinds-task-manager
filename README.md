@@ -1,8 +1,15 @@
-# React + Vite
+## React tailwindcss task manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a task manager or todo manager, where the user can list any pending tasks, mark them as complete and eliminate them.
+On the lower part of the site there's a filter which can be used to choose the amount of task shown on screen. The filter available are all, active and complete.
+As an aditional feature, below the tasks list is a counter which displays the amount of pending tasks and a button to eliminate all completed tasks at once, instead of doing it one by one.
 
-Currently, two official plugins are available:
+### Technologies used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. React.js
+2. Tailwind CSS for styles
+3. Netlify for deploy
+
+### Try it
+You can try this app here:
+https://task-manager-react-tailwind-am.netlify.app
